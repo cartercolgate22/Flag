@@ -1,0 +1,2315 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Half Staff//Idaho + Federal//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Flag — Half Staff (Idaho)
+X-WR-CALDESC:Federal half-staff days with reminders to lower and to raise back up.
+X-WR-TIMEZONE:America/Denver
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:peace-2026@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:Half-staff — Peace Officers Memorial Day
+DESCRIPTION:Flags at half-staff all day for officers killed in the line o
+ f duty. Federal flag law\, 4 U.S.C. 7(m).
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Peace Officers Memorial Da
+ y
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2026@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260517
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2026@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:Half-staff until NOON — Memorial Day
+DESCRIPTION:Half-staff from sunrise until noon\, then raised briskly to f
+ ull staff for the rest of the day.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2026@halfstaff-noon
+DTSTAMP:20260824T000000Z
+DTSTART;TZID=America/Denver:20260525T120000
+DTEND;TZID=America/Denver:20260525T121500
+SUMMARY:Raise the flag to FULL staff — Memorial Day noon
+DESCRIPTION:At noon the flag is raised briskly to the peak and stays ther
+ e until sundown. The morning mourns the dead\; the afternoon belongs to 
+ the living.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT5M
+DESCRIPTION:Raise the flag to full staff in 5 minutes.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2026@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SUMMARY:Half-staff — Korean War Veterans Armistice Day
+DESCRIPTION:Customary rather than standing law — worth confirming with th
+ e governor's office each year.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Korean War Veterans Armist
+ ice Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2026@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2026@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:Half-staff — Patriot Day
+DESCRIPTION:Flags at half-staff all day. Moment of silence at 6:46 a.m. M
+ ountain.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Patriot Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2026@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2026@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Half-staff — National Fallen Firefighters Memorial Day
+DESCRIPTION:Issued by presidential proclamation each year — confirm befor
+ e lowering.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — National Fallen Firefighte
+ rs Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2026@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2026@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Half-staff — Pearl Harbor Remembrance Day
+DESCRIPTION:Flags at half-staff all day for the 2\,403 Americans killed a
+ t Pearl Harbor in 1941.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Pearl Harbor Remembrance D
+ ay
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2026@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2027@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:Half-staff until NOON — Memorial Day
+DESCRIPTION:Half-staff from sunrise until noon\, then raised briskly to f
+ ull staff for the rest of the day.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2027@halfstaff-noon
+DTSTAMP:20260824T000000Z
+DTSTART;TZID=America/Denver:20270531T120000
+DTEND;TZID=America/Denver:20270531T121500
+SUMMARY:Raise the flag to FULL staff — Memorial Day noon
+DESCRIPTION:At noon the flag is raised briskly to the peak and stays ther
+ e until sundown. The morning mourns the dead\; the afternoon belongs to 
+ the living.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT5M
+DESCRIPTION:Raise the flag to full staff in 5 minutes.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2027@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20270727
+DTEND;VALUE=DATE:20270728
+SUMMARY:Half-staff — Korean War Veterans Armistice Day
+DESCRIPTION:Customary rather than standing law — worth confirming with th
+ e governor's office each year.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Korean War Veterans Armist
+ ice Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2027@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20270728
+DTEND;VALUE=DATE:20270729
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2027@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20270911
+DTEND;VALUE=DATE:20270912
+SUMMARY:Half-staff — Patriot Day
+DESCRIPTION:Flags at half-staff all day. Moment of silence at 6:46 a.m. M
+ ountain.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Patriot Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2027@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2027@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271004
+SUMMARY:Half-staff — National Fallen Firefighters Memorial Day
+DESCRIPTION:Issued by presidential proclamation each year — confirm befor
+ e lowering.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — National Fallen Firefighte
+ rs Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2027@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20271004
+DTEND;VALUE=DATE:20271005
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2027@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20271207
+DTEND;VALUE=DATE:20271208
+SUMMARY:Half-staff — Pearl Harbor Remembrance Day
+DESCRIPTION:Flags at half-staff all day for the 2\,403 Americans killed a
+ t Pearl Harbor in 1941.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Pearl Harbor Remembrance D
+ ay
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2027@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20271208
+DTEND;VALUE=DATE:20271209
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2028@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20280515
+DTEND;VALUE=DATE:20280516
+SUMMARY:Half-staff — Peace Officers Memorial Day
+DESCRIPTION:Flags at half-staff all day for officers killed in the line o
+ f duty. Federal flag law\, 4 U.S.C. 7(m).
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Peace Officers Memorial Da
+ y
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2028@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20280516
+DTEND;VALUE=DATE:20280517
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2028@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20280529
+DTEND;VALUE=DATE:20280530
+SUMMARY:Half-staff until NOON — Memorial Day
+DESCRIPTION:Half-staff from sunrise until noon\, then raised briskly to f
+ ull staff for the rest of the day.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2028@halfstaff-noon
+DTSTAMP:20260824T000000Z
+DTSTART;TZID=America/Denver:20280529T120000
+DTEND;TZID=America/Denver:20280529T121500
+SUMMARY:Raise the flag to FULL staff — Memorial Day noon
+DESCRIPTION:At noon the flag is raised briskly to the peak and stays ther
+ e until sundown. The morning mourns the dead\; the afternoon belongs to 
+ the living.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT5M
+DESCRIPTION:Raise the flag to full staff in 5 minutes.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2028@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20280727
+DTEND;VALUE=DATE:20280728
+SUMMARY:Half-staff — Korean War Veterans Armistice Day
+DESCRIPTION:Customary rather than standing law — worth confirming with th
+ e governor's office each year.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Korean War Veterans Armist
+ ice Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2028@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20280728
+DTEND;VALUE=DATE:20280729
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2028@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20280911
+DTEND;VALUE=DATE:20280912
+SUMMARY:Half-staff — Patriot Day
+DESCRIPTION:Flags at half-staff all day. Moment of silence at 6:46 a.m. M
+ ountain.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Patriot Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2028@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20280912
+DTEND;VALUE=DATE:20280913
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2028@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20281002
+SUMMARY:Half-staff — National Fallen Firefighters Memorial Day
+DESCRIPTION:Issued by presidential proclamation each year — confirm befor
+ e lowering.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — National Fallen Firefighte
+ rs Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2028@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20281002
+DTEND;VALUE=DATE:20281003
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2028@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20281207
+DTEND;VALUE=DATE:20281208
+SUMMARY:Half-staff — Pearl Harbor Remembrance Day
+DESCRIPTION:Flags at half-staff all day for the 2\,403 Americans killed a
+ t Pearl Harbor in 1941.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Pearl Harbor Remembrance D
+ ay
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2028@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20281208
+DTEND;VALUE=DATE:20281209
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2029@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20290515
+DTEND;VALUE=DATE:20290516
+SUMMARY:Half-staff — Peace Officers Memorial Day
+DESCRIPTION:Flags at half-staff all day for officers killed in the line o
+ f duty. Federal flag law\, 4 U.S.C. 7(m).
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Peace Officers Memorial Da
+ y
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2029@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20290516
+DTEND;VALUE=DATE:20290517
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2029@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20290528
+DTEND;VALUE=DATE:20290529
+SUMMARY:Half-staff until NOON — Memorial Day
+DESCRIPTION:Half-staff from sunrise until noon\, then raised briskly to f
+ ull staff for the rest of the day.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2029@halfstaff-noon
+DTSTAMP:20260824T000000Z
+DTSTART;TZID=America/Denver:20290528T120000
+DTEND;TZID=America/Denver:20290528T121500
+SUMMARY:Raise the flag to FULL staff — Memorial Day noon
+DESCRIPTION:At noon the flag is raised briskly to the peak and stays ther
+ e until sundown. The morning mourns the dead\; the afternoon belongs to 
+ the living.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT5M
+DESCRIPTION:Raise the flag to full staff in 5 minutes.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2029@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20290727
+DTEND;VALUE=DATE:20290728
+SUMMARY:Half-staff — Korean War Veterans Armistice Day
+DESCRIPTION:Customary rather than standing law — worth confirming with th
+ e governor's office each year.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Korean War Veterans Armist
+ ice Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2029@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20290728
+DTEND;VALUE=DATE:20290729
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2029@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20290911
+DTEND;VALUE=DATE:20290912
+SUMMARY:Half-staff — Patriot Day
+DESCRIPTION:Flags at half-staff all day. Moment of silence at 6:46 a.m. M
+ ountain.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Patriot Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2029@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20290912
+DTEND;VALUE=DATE:20290913
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2029@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20291007
+DTEND;VALUE=DATE:20291008
+SUMMARY:Half-staff — National Fallen Firefighters Memorial Day
+DESCRIPTION:Issued by presidential proclamation each year — confirm befor
+ e lowering.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — National Fallen Firefighte
+ rs Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2029@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20291008
+DTEND;VALUE=DATE:20291009
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2029@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20291207
+DTEND;VALUE=DATE:20291208
+SUMMARY:Half-staff — Pearl Harbor Remembrance Day
+DESCRIPTION:Flags at half-staff all day for the 2\,403 Americans killed a
+ t Pearl Harbor in 1941.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Pearl Harbor Remembrance D
+ ay
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2029@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20291208
+DTEND;VALUE=DATE:20291209
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2030@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20300515
+DTEND;VALUE=DATE:20300516
+SUMMARY:Half-staff — Peace Officers Memorial Day
+DESCRIPTION:Flags at half-staff all day for officers killed in the line o
+ f duty. Federal flag law\, 4 U.S.C. 7(m).
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Peace Officers Memorial Da
+ y
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2030@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20300516
+DTEND;VALUE=DATE:20300517
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2030@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20300527
+DTEND;VALUE=DATE:20300528
+SUMMARY:Half-staff until NOON — Memorial Day
+DESCRIPTION:Half-staff from sunrise until noon\, then raised briskly to f
+ ull staff for the rest of the day.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2030@halfstaff-noon
+DTSTAMP:20260824T000000Z
+DTSTART;TZID=America/Denver:20300527T120000
+DTEND;TZID=America/Denver:20300527T121500
+SUMMARY:Raise the flag to FULL staff — Memorial Day noon
+DESCRIPTION:At noon the flag is raised briskly to the peak and stays ther
+ e until sundown. The morning mourns the dead\; the afternoon belongs to 
+ the living.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT5M
+DESCRIPTION:Raise the flag to full staff in 5 minutes.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2030@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20300727
+DTEND;VALUE=DATE:20300728
+SUMMARY:Half-staff — Korean War Veterans Armistice Day
+DESCRIPTION:Customary rather than standing law — worth confirming with th
+ e governor's office each year.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Korean War Veterans Armist
+ ice Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2030@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20300728
+DTEND;VALUE=DATE:20300729
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2030@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20300911
+DTEND;VALUE=DATE:20300912
+SUMMARY:Half-staff — Patriot Day
+DESCRIPTION:Flags at half-staff all day. Moment of silence at 6:46 a.m. M
+ ountain.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Patriot Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2030@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20300912
+DTEND;VALUE=DATE:20300913
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2030@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20301006
+DTEND;VALUE=DATE:20301007
+SUMMARY:Half-staff — National Fallen Firefighters Memorial Day
+DESCRIPTION:Issued by presidential proclamation each year — confirm befor
+ e lowering.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — National Fallen Firefighte
+ rs Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2030@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20301007
+DTEND;VALUE=DATE:20301008
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2030@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20301207
+DTEND;VALUE=DATE:20301208
+SUMMARY:Half-staff — Pearl Harbor Remembrance Day
+DESCRIPTION:Flags at half-staff all day for the 2\,403 Americans killed a
+ t Pearl Harbor in 1941.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Pearl Harbor Remembrance D
+ ay
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2030@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20301208
+DTEND;VALUE=DATE:20301209
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2031@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20310515
+DTEND;VALUE=DATE:20310516
+SUMMARY:Half-staff — Peace Officers Memorial Day
+DESCRIPTION:Flags at half-staff all day for officers killed in the line o
+ f duty. Federal flag law\, 4 U.S.C. 7(m).
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Peace Officers Memorial Da
+ y
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2031@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20310516
+DTEND;VALUE=DATE:20310517
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2031@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20310526
+DTEND;VALUE=DATE:20310527
+SUMMARY:Half-staff until NOON — Memorial Day
+DESCRIPTION:Half-staff from sunrise until noon\, then raised briskly to f
+ ull staff for the rest of the day.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2031@halfstaff-noon
+DTSTAMP:20260824T000000Z
+DTSTART;TZID=America/Denver:20310526T120000
+DTEND;TZID=America/Denver:20310526T121500
+SUMMARY:Raise the flag to FULL staff — Memorial Day noon
+DESCRIPTION:At noon the flag is raised briskly to the peak and stays ther
+ e until sundown. The morning mourns the dead\; the afternoon belongs to 
+ the living.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT5M
+DESCRIPTION:Raise the flag to full staff in 5 minutes.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2031@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20310727
+DTEND;VALUE=DATE:20310728
+SUMMARY:Half-staff — Korean War Veterans Armistice Day
+DESCRIPTION:Customary rather than standing law — worth confirming with th
+ e governor's office each year.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Korean War Veterans Armist
+ ice Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2031@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20310728
+DTEND;VALUE=DATE:20310729
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2031@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20310911
+DTEND;VALUE=DATE:20310912
+SUMMARY:Half-staff — Patriot Day
+DESCRIPTION:Flags at half-staff all day. Moment of silence at 6:46 a.m. M
+ ountain.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Patriot Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2031@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20310912
+DTEND;VALUE=DATE:20310913
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2031@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20311005
+DTEND;VALUE=DATE:20311006
+SUMMARY:Half-staff — National Fallen Firefighters Memorial Day
+DESCRIPTION:Issued by presidential proclamation each year — confirm befor
+ e lowering.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — National Fallen Firefighte
+ rs Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2031@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20311006
+DTEND;VALUE=DATE:20311007
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2031@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20311207
+DTEND;VALUE=DATE:20311208
+SUMMARY:Half-staff — Pearl Harbor Remembrance Day
+DESCRIPTION:Flags at half-staff all day for the 2\,403 Americans killed a
+ t Pearl Harbor in 1941.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Pearl Harbor Remembrance D
+ ay
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2031@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20311208
+DTEND;VALUE=DATE:20311209
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2032@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20320531
+DTEND;VALUE=DATE:20320601
+SUMMARY:Half-staff until NOON — Memorial Day
+DESCRIPTION:Half-staff from sunrise until noon\, then raised briskly to f
+ ull staff for the rest of the day.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2032@halfstaff-noon
+DTSTAMP:20260824T000000Z
+DTSTART;TZID=America/Denver:20320531T120000
+DTEND;TZID=America/Denver:20320531T121500
+SUMMARY:Raise the flag to FULL staff — Memorial Day noon
+DESCRIPTION:At noon the flag is raised briskly to the peak and stays ther
+ e until sundown. The morning mourns the dead\; the afternoon belongs to 
+ the living.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT5M
+DESCRIPTION:Raise the flag to full staff in 5 minutes.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2032@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20320727
+DTEND;VALUE=DATE:20320728
+SUMMARY:Half-staff — Korean War Veterans Armistice Day
+DESCRIPTION:Customary rather than standing law — worth confirming with th
+ e governor's office each year.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Korean War Veterans Armist
+ ice Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2032@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20320728
+DTEND;VALUE=DATE:20320729
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2032@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20320911
+DTEND;VALUE=DATE:20320912
+SUMMARY:Half-staff — Patriot Day
+DESCRIPTION:Flags at half-staff all day. Moment of silence at 6:46 a.m. M
+ ountain.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Patriot Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2032@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20320912
+DTEND;VALUE=DATE:20320913
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2032@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20321003
+DTEND;VALUE=DATE:20321004
+SUMMARY:Half-staff — National Fallen Firefighters Memorial Day
+DESCRIPTION:Issued by presidential proclamation each year — confirm befor
+ e lowering.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — National Fallen Firefighte
+ rs Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2032@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20321004
+DTEND;VALUE=DATE:20321005
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2032@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20321207
+DTEND;VALUE=DATE:20321208
+SUMMARY:Half-staff — Pearl Harbor Remembrance Day
+DESCRIPTION:Flags at half-staff all day for the 2\,403 Americans killed a
+ t Pearl Harbor in 1941.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Pearl Harbor Remembrance D
+ ay
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2032@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20321208
+DTEND;VALUE=DATE:20321209
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2033@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20330515
+DTEND;VALUE=DATE:20330516
+SUMMARY:Half-staff — Peace Officers Memorial Day
+DESCRIPTION:Flags at half-staff all day for officers killed in the line o
+ f duty. Federal flag law\, 4 U.S.C. 7(m).
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Peace Officers Memorial Da
+ y
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2033@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20330516
+DTEND;VALUE=DATE:20330517
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2033@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20330530
+DTEND;VALUE=DATE:20330531
+SUMMARY:Half-staff until NOON — Memorial Day
+DESCRIPTION:Half-staff from sunrise until noon\, then raised briskly to f
+ ull staff for the rest of the day.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2033@halfstaff-noon
+DTSTAMP:20260824T000000Z
+DTSTART;TZID=America/Denver:20330530T120000
+DTEND;TZID=America/Denver:20330530T121500
+SUMMARY:Raise the flag to FULL staff — Memorial Day noon
+DESCRIPTION:At noon the flag is raised briskly to the peak and stays ther
+ e until sundown. The morning mourns the dead\; the afternoon belongs to 
+ the living.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT5M
+DESCRIPTION:Raise the flag to full staff in 5 minutes.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2033@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20330727
+DTEND;VALUE=DATE:20330728
+SUMMARY:Half-staff — Korean War Veterans Armistice Day
+DESCRIPTION:Customary rather than standing law — worth confirming with th
+ e governor's office each year.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Korean War Veterans Armist
+ ice Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2033@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20330728
+DTEND;VALUE=DATE:20330729
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2033@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20330911
+DTEND;VALUE=DATE:20330912
+SUMMARY:Half-staff — Patriot Day
+DESCRIPTION:Flags at half-staff all day. Moment of silence at 6:46 a.m. M
+ ountain.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Patriot Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2033@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20330912
+DTEND;VALUE=DATE:20330913
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2033@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20331002
+DTEND;VALUE=DATE:20331003
+SUMMARY:Half-staff — National Fallen Firefighters Memorial Day
+DESCRIPTION:Issued by presidential proclamation each year — confirm befor
+ e lowering.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — National Fallen Firefighte
+ rs Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2033@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20331003
+DTEND;VALUE=DATE:20331004
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2033@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20331207
+DTEND;VALUE=DATE:20331208
+SUMMARY:Half-staff — Pearl Harbor Remembrance Day
+DESCRIPTION:Flags at half-staff all day for the 2\,403 Americans killed a
+ t Pearl Harbor in 1941.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Pearl Harbor Remembrance D
+ ay
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2033@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20331208
+DTEND;VALUE=DATE:20331209
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2034@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20340515
+DTEND;VALUE=DATE:20340516
+SUMMARY:Half-staff — Peace Officers Memorial Day
+DESCRIPTION:Flags at half-staff all day for officers killed in the line o
+ f duty. Federal flag law\, 4 U.S.C. 7(m).
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Peace Officers Memorial Da
+ y
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2034@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20340516
+DTEND;VALUE=DATE:20340517
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2034@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20340529
+DTEND;VALUE=DATE:20340530
+SUMMARY:Half-staff until NOON — Memorial Day
+DESCRIPTION:Half-staff from sunrise until noon\, then raised briskly to f
+ ull staff for the rest of the day.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2034@halfstaff-noon
+DTSTAMP:20260824T000000Z
+DTSTART;TZID=America/Denver:20340529T120000
+DTEND;TZID=America/Denver:20340529T121500
+SUMMARY:Raise the flag to FULL staff — Memorial Day noon
+DESCRIPTION:At noon the flag is raised briskly to the peak and stays ther
+ e until sundown. The morning mourns the dead\; the afternoon belongs to 
+ the living.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT5M
+DESCRIPTION:Raise the flag to full staff in 5 minutes.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2034@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20340727
+DTEND;VALUE=DATE:20340728
+SUMMARY:Half-staff — Korean War Veterans Armistice Day
+DESCRIPTION:Customary rather than standing law — worth confirming with th
+ e governor's office each year.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Korean War Veterans Armist
+ ice Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2034@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20340728
+DTEND;VALUE=DATE:20340729
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2034@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20340911
+DTEND;VALUE=DATE:20340912
+SUMMARY:Half-staff — Patriot Day
+DESCRIPTION:Flags at half-staff all day. Moment of silence at 6:46 a.m. M
+ ountain.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Patriot Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2034@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20340912
+DTEND;VALUE=DATE:20340913
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2034@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20341001
+DTEND;VALUE=DATE:20341002
+SUMMARY:Half-staff — National Fallen Firefighters Memorial Day
+DESCRIPTION:Issued by presidential proclamation each year — confirm befor
+ e lowering.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — National Fallen Firefighte
+ rs Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2034@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20341002
+DTEND;VALUE=DATE:20341003
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2034@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20341207
+DTEND;VALUE=DATE:20341208
+SUMMARY:Half-staff — Pearl Harbor Remembrance Day
+DESCRIPTION:Flags at half-staff all day for the 2\,403 Americans killed a
+ t Pearl Harbor in 1941.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Pearl Harbor Remembrance D
+ ay
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2034@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20341208
+DTEND;VALUE=DATE:20341209
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2035@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20350515
+DTEND;VALUE=DATE:20350516
+SUMMARY:Half-staff — Peace Officers Memorial Day
+DESCRIPTION:Flags at half-staff all day for officers killed in the line o
+ f duty. Federal flag law\, 4 U.S.C. 7(m).
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Peace Officers Memorial Da
+ y
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2035@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20350516
+DTEND;VALUE=DATE:20350517
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2035@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20350528
+DTEND;VALUE=DATE:20350529
+SUMMARY:Half-staff until NOON — Memorial Day
+DESCRIPTION:Half-staff from sunrise until noon\, then raised briskly to f
+ ull staff for the rest of the day.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2035@halfstaff-noon
+DTSTAMP:20260824T000000Z
+DTSTART;TZID=America/Denver:20350528T120000
+DTEND;TZID=America/Denver:20350528T121500
+SUMMARY:Raise the flag to FULL staff — Memorial Day noon
+DESCRIPTION:At noon the flag is raised briskly to the peak and stays ther
+ e until sundown. The morning mourns the dead\; the afternoon belongs to 
+ the living.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT5M
+DESCRIPTION:Raise the flag to full staff in 5 minutes.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2035@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20350727
+DTEND;VALUE=DATE:20350728
+SUMMARY:Half-staff — Korean War Veterans Armistice Day
+DESCRIPTION:Customary rather than standing law — worth confirming with th
+ e governor's office each year.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Korean War Veterans Armist
+ ice Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2035@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20350728
+DTEND;VALUE=DATE:20350729
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2035@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20350911
+DTEND;VALUE=DATE:20350912
+SUMMARY:Half-staff — Patriot Day
+DESCRIPTION:Flags at half-staff all day. Moment of silence at 6:46 a.m. M
+ ountain.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Patriot Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2035@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20350912
+DTEND;VALUE=DATE:20350913
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2035@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20351007
+DTEND;VALUE=DATE:20351008
+SUMMARY:Half-staff — National Fallen Firefighters Memorial Day
+DESCRIPTION:Issued by presidential proclamation each year — confirm befor
+ e lowering.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — National Fallen Firefighte
+ rs Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2035@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20351008
+DTEND;VALUE=DATE:20351009
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2035@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20351207
+DTEND;VALUE=DATE:20351208
+SUMMARY:Half-staff — Pearl Harbor Remembrance Day
+DESCRIPTION:Flags at half-staff all day for the 2\,403 Americans killed a
+ t Pearl Harbor in 1941.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Pearl Harbor Remembrance D
+ ay
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2035@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20351208
+DTEND;VALUE=DATE:20351209
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2036@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20360515
+DTEND;VALUE=DATE:20360516
+SUMMARY:Half-staff — Peace Officers Memorial Day
+DESCRIPTION:Flags at half-staff all day for officers killed in the line o
+ f duty. Federal flag law\, 4 U.S.C. 7(m).
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Peace Officers Memorial Da
+ y
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peace-2036@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20360516
+DTEND;VALUE=DATE:20360517
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2036@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20360526
+DTEND;VALUE=DATE:20360527
+SUMMARY:Half-staff until NOON — Memorial Day
+DESCRIPTION:Half-staff from sunrise until noon\, then raised briskly to f
+ ull staff for the rest of the day.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-2036@halfstaff-noon
+DTSTAMP:20260824T000000Z
+DTSTART;TZID=America/Denver:20360526T120000
+DTEND;TZID=America/Denver:20360526T121500
+SUMMARY:Raise the flag to FULL staff — Memorial Day noon
+DESCRIPTION:At noon the flag is raised briskly to the peak and stays ther
+ e until sundown. The morning mourns the dead\; the afternoon belongs to 
+ the living.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT5M
+DESCRIPTION:Raise the flag to full staff in 5 minutes.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2036@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20360727
+DTEND;VALUE=DATE:20360728
+SUMMARY:Half-staff — Korean War Veterans Armistice Day
+DESCRIPTION:Customary rather than standing law — worth confirming with th
+ e governor's office each year.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Korean War Veterans Armist
+ ice Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:korea-2036@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20360728
+DTEND;VALUE=DATE:20360729
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2036@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20360911
+DTEND;VALUE=DATE:20360912
+SUMMARY:Half-staff — Patriot Day
+DESCRIPTION:Flags at half-staff all day. Moment of silence at 6:46 a.m. M
+ ountain.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Patriot Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:patriot-2036@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20360912
+DTEND;VALUE=DATE:20360913
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2036@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20361005
+DTEND;VALUE=DATE:20361006
+SUMMARY:Half-staff — National Fallen Firefighters Memorial Day
+DESCRIPTION:Issued by presidential proclamation each year — confirm befor
+ e lowering.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — National Fallen Firefighte
+ rs Memorial Day
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-2036@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20361006
+DTEND;VALUE=DATE:20361007
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2036@halfstaff
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20361207
+DTEND;VALUE=DATE:20361208
+SUMMARY:Half-staff — Pearl Harbor Remembrance Day
+DESCRIPTION:Flags at half-staff all day for the 2\,403 Americans killed a
+ t Pearl Harbor in 1941.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT6H
+DESCRIPTION:Flag goes to half-staff tomorrow — Pearl Harbor Remembrance D
+ ay
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H
+DESCRIPTION:Lower the flag to half-staff today. Raise it to the peak firs
+ t\, then lower it.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pearl-2036@halfstaff-raise
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20361208
+DTEND;VALUE=DATE:20361209
+SUMMARY:Raise the flag back to full staff
+DESCRIPTION:Yesterday's order has ended. Raise it to the peak.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT7H30M
+DESCRIPTION:Raise the flag back to full staff this morning.
+END:VALARM
+END:VEVENT
+END:VCALENDAR
