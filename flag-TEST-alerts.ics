@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Half Staff//TEST//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Half Staff — TEST (delete me)
+X-WR-CALDESC:Fires a reminder every 15 minutes so you can confirm alerts work. Delete after testing.
+REFRESH-INTERVAL;VALUE=DURATION:PT15M
+X-PUBLISHED-TTL:PT15M
+BEGIN:VEVENT
+UID:pulse@halfstaff-test
+DTSTAMP:20260824T000000Z
+DTSTART;TZID=America/Denver:20260824T000000
+DTEND;TZID=America/Denver:20260824T000500
+RRULE:FREQ=MINUTELY;INTERVAL=15;COUNT=288
+SUMMARY:Half Staff test alert
+DESCRIPTION:If this buzzed your phone\, notifications are working. Delete this calendar.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT0S
+DESCRIPTION:Test alert — notifications are working.
+END:VALARM
+END:VEVENT
+END:VCALENDAR
