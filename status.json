@@ -1,8 +1,23 @@
 {
-  "checked": "2026-09-23T13:35:07+00:00",
+  "checked": "2026-09-23T17:57:13+00:00",
   "us": "full",
   "idaho": "full",
-  "orders": [],
+  "orders": [
+    {
+      "reason": "Patriot Day 2026",
+      "start": null,
+      "end": null,
+      "end_known": false,
+      "url": "https://gov.idaho.gov/pressrelease/half-staff-flag-directive-patriot-day-2026/"
+    },
+    {
+      "reason": "Gov. Little comments on passing of Maj. Gen. Darrell Manning, issues half-staff flag order",
+      "start": null,
+      "end": null,
+      "end_known": false,
+      "url": "https://gov.idaho.gov/pressrelease/gov-little-comments-on-passing-of-maj-gen-darrell-manning-issues-half-staff-flag-order/"
+    }
+  ],
   "source": "https://gov.idaho.gov/flag-status/",
   "ok": true
 }
