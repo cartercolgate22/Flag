@@ -1,9 +1,8 @@
 {
-  "checked": "2026-11-22T21:42:11+00:00",
-  "us": null,
-  "idaho": null,
+  "checked": "2026-11-23T02:33:44+00:00",
+  "us": "full",
+  "idaho": "full",
   "orders": [],
   "source": "https://gov.idaho.gov/flag-status/",
-  "ok": false,
-  "error": "status page unreachable: <urlopen error [Errno 104] Connection reset by peer>"
+  "ok": true
 }
